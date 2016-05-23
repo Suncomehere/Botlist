@@ -1,0 +1,169 @@
+body{
+	letter-spacing: 0.5px;
+	background-color: #f5f5f5;
+}
+header{
+	background-color: #1a86c0;
+	padding-bottom: 100px;
+	margin-bottom: 28px;
+}
+
+/*头部导航*/
+.nav-header{
+    line-height: 10px;
+    position: relative;
+}
+.nav-header img{
+	width: 100px;
+	height: 21px;
+}
+.nav-header a{
+	color:white;
+}
+
+.nav-header ul li:hover a{
+	color:black;
+	background-color: #1a86c0;
+}
+
+/*头部搜索部分*/
+.headdown{
+	text-align: center;
+	margin-top:3em;
+	padding-top:1em;
+}
+.headdown h2{
+	color:white;
+	font-weight: 200;
+}
+.headdown img{
+	width: 60%;
+	opacity: 0.8;
+    margin-top: 2em;
+}
+.headdown form{
+
+	margin:30px auto 0;
+	min-width: 485px; 
+	overflow: hidden;
+}
+.headdown form input{
+	width: 70%;
+	float:left;
+	border-radius: 4px;
+	font-size: 16px;
+}
+.headdown form button{
+	width: 21%;
+	float:left;
+	color:white;
+	height: 45px;
+	font-size:14px;
+	padding:0 12px;
+	margin-left: 20px;
+	border:1px solid #73c1ea;
+	background-color: #1a86c0;
+}
+.navbar-collapse{
+	border-top:1px solid white;
+}
+/*中间content*/
+
+/*中间左边导航*/
+
+content .leftnav h5{
+	font-size: 1em;
+	font-weight: 600;
+	margin-top:30px;
+
+}
+content .leftnav ul li a{
+	color:#9b9999;
+	line-height: 1.6em;
+}
+/*中间右边部分*/
+
+content .right h5{
+	border-bottom: 1px solid #d5d5d5;
+	padding-bottom: 0.5em;
+	margin-top:30px;
+}
+content .right .bot{
+	margin: 15px 0 0;
+	min-height: 7em;
+}
+
+content .right .bot h2{
+	font-size: 1.25em;
+	font-weight: 600;
+	margin-top:0;
+	margin-bottom: 5px;
+}
+content .right .bot .move{
+	padding-left:0;
+	padding-right:0;
+
+}
+content .right .bot h2 a{
+	color:black;
+}
+content .right .bot p{
+	color: #959595;
+    font-size: 0.8em;
+}
+content .right .bot a img{
+	width: 100%;
+	border-radius: 8px;
+}
+content .right .bot .xiaotu img{
+	width: 20px;
+	height: 20px;
+}
+
+/*footer部分*/
+#foot{
+	margin-top:140px;
+	margin-bottom: 20px;
+}
+#foot h3{
+	color:#999;
+	text-align: center;
+	font-weight: 300;
+}
+#foot hr{
+	border-top:1px solid #d5d5d5;
+}
+#foot{
+	color:#999;
+}
+@media (max-width: 768px){
+	.navbar-brand{
+		float:none;
+	}
+}
+@media (min-width: 768px){
+
+.headdown form{
+	width: 100%;
+}
+.headdown form button{
+	padding:0 20px;
+}
+.col-sm-4 {
+    width: 33.3333333333%;
+}
+}
+@media (min-width: 992px){
+
+.headdown form{
+	width: 50%;
+}
+}
+
+
+.fff{
+	background-color: #fff;
+}
+
+
+
